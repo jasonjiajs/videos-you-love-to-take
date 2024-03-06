@@ -7,6 +7,13 @@ mkdir -p data/yt8m/frame; cd data/yt8m/frame
 ```
 
 Download 1/N-th of the training data from the US, e.g. N=1000 which gives 5 files (note: full dataset is 1.5TB)
+Source: https://research.google.com/youtube8m/download.html
+
+```shell
+curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/train mirror=us python
+curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/validate mirror=us python
+curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/test mirror=us python
+```
 
 You should see output similar to the following:
 ```
@@ -15,13 +22,6 @@ Starting fresh download in this directory. Please make sure you have >2TB of fre
 Files remaining 5
 ```
 
-```shell
-curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/train mirror=us python
-curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/validate mirror=us python
-curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/test mirror=us python
-
-```
-Source: https://research.google.com/youtube8m/download.html
 
 ## Data format
 - Frame-level features:

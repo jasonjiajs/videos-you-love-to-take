@@ -1,8 +1,11 @@
+# Documentation
 
-Download the YT8M dataset
+## Download data
+To download 1/100-th of the training data from the US use:
+Source: https://research.google.com/youtube8m/download.html
 
-For example, download one shard of the training data:
-
-curl http://us.data.yt8m.org/2/frame/train/trainpj.tfrecord --output /tmp/mediapipe/trainpj.tfrecord
+```shell
+curl data.yt8m.org/download.py | shard=1,100 partition=2/frame/train mirror=us python
+```
 
 

@@ -7,6 +7,7 @@ mkdir -p data/yt8m/frame; cd data/yt8m/frame
 ```
 
 Download 1/N-th of the data from the US, e.g. N=1000. This gives 5 training files, 5 validation files and 4 test files (note: full dataset is 1.5TB).
+
 Source: https://research.google.com/youtube8m/download.html
 
 ```shell

@@ -84,3 +84,7 @@ feature_lists: {
 
 ```
 
+```
+python code/extract_tfrecords_main.py --input_videos_csv /sample-data/sample-data.csv \
+    --output_tfrecords_file /sample-data/sample-data.tfrecord
+```

@@ -1,7 +1,7 @@
 # Documentation
 
 ## Download data
-To download 1/100-th of the training data from the US:
+To download 1/100-th of the training data from the US (replace 100 with N if you just want to download 1/N of data):
 ```shell
 curl data.yt8m.org/download.py | shard=1,100 partition=2/frame/train mirror=us python
 ```

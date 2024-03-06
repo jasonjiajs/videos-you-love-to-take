@@ -6,7 +6,7 @@ Make data folders
 mkdir -p data/yt8m/frame; cd data/yt8m/frame
 ```
 
-Download 1/N-th of the training data from the US, e.g. N=1000 (note: full dataset is 1.5TB)
+Download 1/N-th of the training data from the US, e.g. N=1000 which gives 5 files (note: full dataset is 1.5TB)
 ```shell
 curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/train mirror=us python
 curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/validate mirror=us python

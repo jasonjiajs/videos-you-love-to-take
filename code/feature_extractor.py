@@ -11,6 +11,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+# Taken from: https://github.com/google/youtube-8m/blob/master/feature_extractor/feature_extractor.py
+
 """Facilitates extracting YouTube8M features from RGB images."""
 
 import os

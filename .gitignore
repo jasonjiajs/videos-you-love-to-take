@@ -1,1 +1,6 @@
-./data-jason
+data-jason/
+.DS_Store
+sample-data/
+data/
+common-dataset/
+saved_dataset/

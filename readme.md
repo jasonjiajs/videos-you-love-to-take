@@ -83,7 +83,16 @@ feature_lists: {
 }
 
 ```
+Installing opencv:
+```
+pip3 install opencv-python
+```
+Check that running this command prints True (where you have a video `./sample-data/sample-video-1.mp4`):
+```
+python -c 'import cv2; print(cv2.VideoCapture().open("./sample-data/sample-video-1.mp4"))'
+```
 
+Then, you can create the tfrecord by calling the binary:
 ```
 python code/extract_tfrecords_main.py --input_videos_csv /sample-data/sample-data.csv \
     --output_tfrecords_file /sample-data/sample-data.tfrecord

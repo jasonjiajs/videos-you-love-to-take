@@ -10,13 +10,12 @@ Make data folders
 ```shell
 mkdir -p data/yt8m/frame; cd data/yt8m/frame
 ```
-
-Download 1/N-th of the data from the US, e.g. N=1000. This gives 5 training files, 5 validation files and 4 test files (note: full frame-level dataset is 1.5TB).
+Download 1/N-th of the data from the US (we use N=300). This gives 29 training files. (note: full frame-level dataset is 1.5TB).
 
 Source: https://research.google.com/youtube8m/download.html
 
 ```shell
-curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/train mirror=us python
+curl data.yt8m.org/download.py | shard=1,300 partition=2/frame/train mirror=us python
 curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/validate mirror=us python
 curl data.yt8m.org/download.py | shard=1,1000 partition=2/frame/test mirror=us python
 ```

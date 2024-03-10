@@ -1,4 +1,4 @@
-# What videos do you love to take?
+# What videos do you love to take? - Personal video classification with deep learning
 Final Project, MIT 15.773 - Hands-on Deep Learning <br>
 Team Members: [Jason Jia](https://www.linkedin.com/in/jasonjiajs/), [Maxime Wolf](https://www.linkedin.com/in/maxime-wolf/), [Maria Besedovskaya](https://www.linkedin.com/in/mariabesedovskaya/), [Minnie Arunaramwong](https://www.linkedin.com/in/minnie-arunaramwong/)
 

@@ -1,4 +1,5 @@
-# Videos you love to take
+# What videos do you love to take? - Personal video classification with deep learning
+
 
 ## Download data
 Here we just work with frame-level data and not video-level data.

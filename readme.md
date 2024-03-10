@@ -2,7 +2,7 @@
 Final Project, MIT 15.773 - Hands-on Deep Learning <br>
 Team Members: [Jason Jia](https://www.linkedin.com/in/jasonjiajs/), [Maxime Wolf](https://www.linkedin.com/in/maxime-wolf/), [Maria Besedovskaya](https://www.linkedin.com/in/mariabesedovskaya/), [Minnie Arunaramwong](https://www.linkedin.com/in/minnie-arunaramwong/)
 
-<img src="https://github.com/jasonjiajs/videos-you-love-to-take/assets/90637415/b65379e5-0225-4948-94eb-984d70efe257" width="550" />
+<img src="https://github.com/jasonjiajs/videos-you-love-to-take/assets/90637415/b65379e5-0225-4948-94eb-984d70efe257" width="500" />
 
 ## Problem and Motivation
 Videos help capture some of our favorite and most important moments, but we often lose track of what we took in the past. Currently, available systems (e.g., application Photo for IOS) can automatically categorize and group photos, but they do not automatically organize videos, and manual sorting is excessively time-consuming. We want to automatically categorize videos and make it easier for people to find what they want. 

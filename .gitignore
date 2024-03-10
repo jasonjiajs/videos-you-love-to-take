@@ -3,3 +3,4 @@ sample-data/
 data/yt8m/
 common-dataset/
 saved_dataset/
+__pycache__/

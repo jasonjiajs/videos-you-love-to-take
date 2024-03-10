@@ -1,5 +1,4 @@
 # What videos do you love to take?
-## Personal video classification with deep learning
 
 
 ## Download data

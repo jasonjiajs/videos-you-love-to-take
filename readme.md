@@ -5,22 +5,15 @@ Team Members: [Jason Jia](https://www.linkedin.com/in/jasonjiajs/), [Maxime Wolf
 ## Problem and Motivation
 Videos help capture some of our favorite and most important moments, but we often lose track of what we took in the past. Currently, available systems (e.g., application Photo for IOS) can automatically categorize and group photos, but they do not automatically organize videos, and manual sorting is excessively time-consuming. We want to automatically categorize videos and make it easier for people to find what they want. 
 
-## Data
-Here we just work with frame-level data and not video-level data.
+## Data Collection
+To address this challenge, we leveraged the extensive Youtube-8M dataset, which comprises around 8 million videos randomly sampled from publicly available YouTube content (https://research.google.com/youtube8m/index.html). 
 
-2. Download 1/N-th of the data from the US (we use N=300). This gives 29 training files. (note: full frame-level dataset is 1.5TB). The dataset can be found at https://research.google.com/youtube8m/download.html.
-
+To download our frame-level training files, run the following code (note that the full frame-level dataset is 1.5TB): 
 ```shell
 curl data.yt8m.org/download.py | shard=1,300 partition=2/frame/train mirror=us python
 ```
 
-## Processing Pipeline
-
-## Code directory
-
-Approach:
-Data Collection
-To address this challenge, we leveraged the extensive Youtube-8M dataset, which comprises around 8 million videos randomly sampled from publicly available YouTube content (https://research.google.com/youtube8m/index.html). Our focus was on a specific subset of this dataset aligned with our objective and focusing on the most common categories of personal videos, including those featuring food, sport, nature, and family themes.
+Our focus was on a specific subset of this dataset aligned with our objective and focusing on the most common categories of personal videos, including those featuring food, sport, nature, and family themes.
 
 
 Our goal is to correctly label videos from the following categories:
